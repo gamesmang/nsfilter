@@ -532,9 +532,16 @@ Show
 #----------------------------------------------------
 
 Show
-	BaseType "Portal Scroll" "Scroll of Wisdom"
+	BaseType "Scroll of Wisdom"
 	SetTextColor 170 158 130 220
 	SetBorderColor 0 0 0 255
+
+# SMANG - portal highlighting with larger font
+Show
+	BaseType "Portal Scroll"
+	SetTextColor 170 158 130 220
+	SetBorderColor 0 0 0 255
+	SetFontSize 39
 
 Show
 	BaseType "Scroll Fragment"
