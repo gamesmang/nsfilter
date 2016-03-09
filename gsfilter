@@ -1678,7 +1678,7 @@ Show # Endgame: Show normal ilvl 75+ rings/amulets
 
 Show # Endgame: Show normal ilvl 60+ rings/amulets
 	Class Rings Amulet Belts
-	BaseType "Onyx" "Ruby" "Sapphire" "Topaz" "Two-Stone" "Diamond" "Prismatic" "Unset" "Gold" "Citrine" "Turquoise" "Agate" "Coral Ring" "Moonstone" "Leather" "Heavy" "Amber" 
+	BaseType "Onyx" "Ruby" "Sapphire" "Topaz" "Two-Stone" "Diamond" "Prismatic" "Unset" "Gold" "Citrine" "Turquoise" "Coral Ring" "Moonstone" "Leather" "Heavy" "Amber" # SMANG "Agate"
 
 "Jade" "Lapis" "Rustic" "Iron Ring"
 	Rarity Normal
@@ -1728,7 +1728,7 @@ Show
 #	PlayAlertSound 7 300
 
 Show
-	BaseType "Occultist's Vestment" "Imperial Bow" "Prophecy Wand" "Judgement Staff" "Agate Amulet" "Lapis Amulet" "Amber Amulet" "Sorcerer Boots" "Desert Brigandine"
+	BaseType "Occultist's Vestment" "Imperial Bow" "Prophecy Wand" "Judgement Staff" "Lapis Amulet" "Amber Amulet" "Sorcerer Boots" "Desert Brigandine" # SMANG "Agate Amulet"
 	SetBorderColor 0 150 0 150
 	SetTextColor 255 255 255 255
 	Rarity Normal
@@ -1739,6 +1739,15 @@ Show
 	SetBorderColor 0 150 0 150
 	Rarity Normal
 
+# SMANG - highlighting Agate amulets
+
+Show
+	BaseType "Agate Amulet"
+	SetBorderColor 0 200 0 200
+	SetTextColor 255 255 255 255
+	Rarity Normal
+	SetFontSize 35
+	
 #------------------------------------------------------------------------
 # 0707 # CHISEL RECIPE ITEMS
 #-------------------------------------------------------------------------
